@@ -1,4 +1,12 @@
 
+body {
+	background-color: #E8E8E8;
+}
+
+p {
+	font-size: 25px;
+}
+
 .left {
 	text-align: left;
 }
@@ -15,8 +23,9 @@
 
 
 th.border {
-  border: 1px solid;
-  width: 30%;
+	border: 1px solid;
+	width: 30%;
+	background: white;
   
 }
 
@@ -24,6 +33,7 @@ th.border2 {
   border: 1px solid;
   width: 30%;
   padding: 10px;
+  background: white;
   
 }
 
@@ -35,4 +45,32 @@ table {
 p.phonenumber {
 	font-weight: bold;
 	font-size: 23px;
+}
+
+th.tabletitle {
+	background: #999999;
+	 border-top: 1px solid;
+	 border-right: 1px solid;
+	 border-left: 1px solid;
+}
+
+h1.Title {
+	color: white;
+	margin: 0;
+	-webkit-text-stroke: 2px #000000;
+	font-family: "Lucida Console";
+	font-size: 50px;
+}
+
+
+div.footer {
+	overflow: hidden;
+	background-color: #999999;
+	height: 225px;
+	color: white;
+}
+
+.FooterInfo {
+	float:right;
+	text-align: center;
 }
