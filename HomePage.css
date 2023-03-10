@@ -56,18 +56,22 @@ a:active {
 
 /* About section styles */
 #about {
-background-color: #f2f2f2;
-padding: 100px 0;
+    background-color: #f2f2f2;
+    padding: 100px 0;
 }
 
-#about h2 {
-font-size: 36px;
-margin-bottom: 40px;
+.h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    margin-left: 300px;
 }
 
-#about p {
-font-size: 18px;
-margin-bottom: 40px;
+.p1 {
+    font-size: 16px;
+    margin-bottom: 50px;
+    margin-left: 80px;
+    text-align: left;
+    padding-right: 1100px;
 }
 
 
