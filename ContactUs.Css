@@ -7,6 +7,20 @@ p {
 	font-size: 25px;
 }
 
+header {
+    background-color: gray;
+}
+
+.container {
+margin: 0 auto;
+padding: 0 20px;
+}
+
+.Logo {
+    height: 100px;
+    width: 300px;
+}
+
 .left {
 	text-align: left;
 }
@@ -49,9 +63,18 @@ p.phonenumber {
 
 th.tabletitle {
 	background: #999999;
-	 border-top: 1px solid;
-	 border-right: 1px solid;
-	 border-left: 1px solid;
+	border-top: 1px solid;
+	border-right: 1px solid;
+	border-left: 1px solid;
+}
+
+div.table_Padding {
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+div.table_Padding2 {
+	padding: 25px;
 }
 
 h1.Title {
@@ -62,6 +85,40 @@ h1.Title {
 	font-size: 50px;
 }
 
+.inputsize {
+	height: 50px;
+	width: 1000px;
+}
+
+.inputsize2 {
+	height: 300px;
+	width: 1000px;
+}
+
+.buttonClass {
+  font-size:15px;
+  font-family:Arial;
+  width:140px;
+  height:40px;
+  border-width:1px;
+  color:#666666;
+  border-color:#dcdcdc;
+  font-weight:bold;
+  border-top-left-radius:8px;
+  border-top-right-radius:8px;
+  border-bottom-left-radius:8px;
+  border-bottom-right-radius:8px;
+  box-shadow:inset 0px 1px 0px 0px #ffffff;
+  text-shadow:inset 0px 1px 0px #ffffff;
+  background:linear-gradient(#ffffff, #f6f6f6);
+}
+
+.buttonClass:hover {
+  background: linear-gradient(#f6f6f6, #ffffff);
+}
+.Enterpage	{
+	text-align: center;
+}
 
 div.footer {
 	overflow: hidden;
