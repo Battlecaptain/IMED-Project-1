@@ -57,13 +57,15 @@ a:active {
 /* About section styles */
 #about {
     background-color: #f2f2f2;
-    padding: 100px 0;
+    padding: 20px 0;
 }
 
 .h2 {
     font-size: 40px;
     margin-bottom: 10px;
     margin-left: 280px;
+    position: relative;
+    top: 90px;
 }
 
 .p1 {
@@ -80,7 +82,7 @@ a:active {
     margin-bottom: 10px;
     margin-left: 1200px;
     position: relative;
-    bottom: 100px;
+    bottom: 10px;
 }
 
 
@@ -100,8 +102,23 @@ a:active {
 
 
 
-.House Image {
+.House {
     margin-right: 200px;
+    position: relative;
+    left: 20px;
+    bottom: 180px;
+    height: 540px;
+    width: 770px;
+}
+
+
+
+.Homebuying {
+    height: 540px;
+    width: 850px;
+    position: relative;
+    left: 0px;
+    bottom: 180px;
     
 }
 
@@ -112,9 +129,17 @@ a:active {
 
 
 
+
+
+
+
+
+
+
+
 /* Footer styles */
 footer {
-background-color: #f2f2f2;
+background-color: bisque;
 padding: 20px 0;
 text-align: center;
 }
@@ -123,3 +148,12 @@ footer p {
 font-size: 14px;
 margin-bottom: 10px;
 }
+
+
+.footerlogo {
+    height: 100px;
+    width: 300px;
+}
+
+
+
