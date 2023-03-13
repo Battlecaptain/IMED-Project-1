@@ -1,0 +1,48 @@
+body {
+	background-color: #E8E8E8;
+}
+
+header {
+    background-color: gray;
+}
+
+.container {
+margin: 0 auto;
+padding: 0 20px;
+}
+
+.h1 {
+    text-align: center
+}
+
+.Logo {
+    height: 100px;
+    width: 300px;
+}
+
+.Links {
+    margin-left: 300px;
+    position: absolute;
+    top: 40px;
+}
+
+
+
+
+/* Footer styles */
+footer {
+background-color: bisque;
+padding: 20px 0;
+text-align: center;
+}
+
+footer p {
+font-size: 14px;
+margin-bottom: 10px;
+}
+
+
+.footerlogo {
+    height: 100px;
+    width: 300px;
+}

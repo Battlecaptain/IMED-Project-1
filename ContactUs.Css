@@ -60,6 +60,7 @@ table {
 p.phonenumber {
 	font-weight: bold;
 	font-size: 23px;
+	padding-top: 10px;
 }
 
 th.tabletitle {
@@ -122,14 +123,50 @@ h1.Title {
 	text-align: center;
 }
 
-div.footer {
+h3.Title {
+	margin: 0;
+	font-family: "Lucida Console";
+	font-size: 50px;
+	padding: 15px;
+	text-align: center;
+}
+
+/* Footer Code */
+footer.C_Footer {
+background-color: #999999;
+padding: 20px 0;
+text-align: center;
+
+}
+
+footer p {
+font-size: 14px;
+margin-bottom: 10px;
+}
+
+
+.footerlogo {
+    height: 100px;
+    width: 300px;
+}
+
+.Para_Footer {
+	font-size: 18px;
+}
+
+
+/*div.footer {
 	overflow: hidden;
 	background-color: #999999;
 	height: 225px;
 	color: white;
+	position:relative;
+	
 }
 
 .FooterInfo {
 	float:right;
 	text-align: center;
 }
+
+*/
