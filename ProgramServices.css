@@ -8,12 +8,13 @@ header {
 
 .container {
 margin: 0 auto;
-padding: 0 20px;
+padding: 30px 20px;
 }
 
 .h1 {
     text-align: center
 }
+
 
 .Logo {
     height: 100px;
@@ -26,6 +27,64 @@ padding: 0 20px;
     top: 40px;
 }
 
+img {
+    max-width: 320px;
+    float: left;
+    border: 3px soild #fff;
+    border-radius: 10px;
+    margin-right: 15px;
+}
+
+img.img2 {
+    max-width: 320px;
+    float: right;
+    border: 3px soild #fff;
+    border-radius: 10px;
+    margin-right: 15px;
+}
+
+img.img3 {
+    max-width: 320px;
+    float: left;
+    border: 3px soild #fff;
+    border-radius: 10px;
+    margin-right: 15px;
+}
+
+.wrapper {
+    margin: 150px auto;
+    width: 70%; 
+}
+
+.text-box h2 {
+    font-size: 30px;
+    margin-left: 250px;
+}
+
+.text-box p {
+    font-size: 16px;
+    margin-right: 250px;
+}
+
+.text-box_LT h2 {
+    font-size: 30px;
+    margin-left: 750px;
+}
+
+.text-box_LT p {
+    font-size: 16px;
+    margin-left: 325px;
+}
+
+.text-box_CC h2 {
+    font-size: 30px;
+    margin-left: 250px;
+}
+
+.text-box_CC p {
+    font-size: 16px;
+    margin-right: 250px;
+}
 
 
 
@@ -34,6 +93,7 @@ footer {
 background-color: bisque;
 padding: 20px 0;
 text-align: center;
+margin-top: 100px;
 }
 
 footer p {
@@ -46,3 +106,8 @@ margin-bottom: 10px;
     height: 100px;
     width: 300px;
 }
+
+/*    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;*/
