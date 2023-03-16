@@ -20,6 +20,10 @@ padding: 30px 20px;
     text-align: center
 }
 
+.borderText h3 {
+    text-align: center;
+}
+
 
 .Logo {
     height: 100px;
