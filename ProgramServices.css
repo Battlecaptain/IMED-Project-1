@@ -42,12 +42,16 @@ padding: 30px 20px;
     top: 40px;
 }
 
+/* Body styles */
+
 img.img1 {
     max-width: 320px;
     float: left;
     border: 3px soild #fff;
     border-radius: 10px;
     margin-right: 15px;
+    margin-left: -150px;
+    box-shadow: 5px 5px grey;
 }
 
 img.img2 {
@@ -55,8 +59,9 @@ img.img2 {
     float: right;
     border: 3px soild #fff;
     border-radius: 10px;
-    margin-right: 15px;
+    margin-right: -150px;
     margin-left: 15px;
+    box-shadow: 5px 5px grey;
 }
 
 img.img3 {
@@ -65,65 +70,93 @@ img.img3 {
     border: 3px soild #fff;
     border-radius: 10px;
     margin-right: 12px;
+    margin-left: -150px;
+    box-shadow: 5px 5px grey;
 }
 
 .wrapper {
-    margin: 150px auto;
+    margin: 50px auto;
     width: 70%;
      
 }
 
 img.bottomimg {
     display: block;
-  margin-left: auto;
-  margin-right: auto;
-  padding-bottom: 40px;
-  width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 40px;
+    width: 50%;
 }
 
-/*
-.list ul {
-   display: table;
-   padding-left: 10px;
-   display: table;
+.mainContainer {
+    border: 2px solid black;
+    min-width: 1024;
+    max-width: 1920;
+    padding: 20px;
+    margin: 50px;
+    background-color: white;
 }
 
-div.listpadding{
-	padding-left: 10px
+.mainContainer h1 {
+    text-align: center;
 }
-*/
 
-.text-box h2 {
+.text-box_HB h2 {
     font-size: 30px;
-    margin-left: 250px;
+    text-align: center;
 }
 
-.text-box p {
+.text-box_HB p {
     font-size: 16px;
-    margin-right: 250px;
+    text-align: center;
+    font-weight: bold;
 }
+
+.text-box_HB h4 {
+text-align: center;}
+.text-box_HB h3 {
+    text-align: center;
+}
+
 
 .text-box_LT h2 {
     font-size: 30px;
-    margin-left: 750px;
+    text-align: center;
 }
 
 
 .text-box_LT p {
     font-size: 16px;
-    margin-left: 325px;
+    text-align: center;
+    font-weight: bold;
+}
+.text-box_LT h4 {
+    text-align: center;
+    margin-right: 55px;
+}
+.text-box_LT h3 {
+    text-align: center;
 }
 
 .text-box_CC h2 {
     font-size: 30px;
-    margin-left: 250px;
+    text-align: center;
 }
 
 .text-box_CC p {
     font-size: 16px;
-    margin-right: 250px;
+    font-weight: bold;
+    text-align: center;
+}
+.text-box_CC h5 {
+    text-align: center;
+    margin-left: 175px;
 }
 
+.list {
+    text-align: center;
+    font-weight: bold;
+}
 
 
 /* Footer styles */
