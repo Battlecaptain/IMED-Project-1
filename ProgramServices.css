@@ -46,6 +46,7 @@ img.img2 {
     border: 3px soild #fff;
     border-radius: 10px;
     margin-right: 15px;
+    margin-left: 15px;
 }
 
 img.img3 {
@@ -62,9 +63,16 @@ img.img3 {
      
 }
 
-#Body {
-    padding: 20px 0px;
-    line-height: 1.5;
+img.bottomimg {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 40px;
+  width: 50%;
+}
+
+.list li {
+    margin-left: 100px;
 }
 
 .text-box h2 {
